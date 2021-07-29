@@ -5,11 +5,368 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SN Honda World</title>
+
+    <!-- fabicon -->
+    <link rel="shortcut icon" href="images/Capture.PNG" type="image/x-icon">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/8cd7948b53.js" crossorigin="anonymous"></script>
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- poppins font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
+    <header class="py-5">
+        <div class="container">
+            <div class="d-flex row align-items-center justify-content-around">
+                <div class="col-md-6">
+                    <p class="text-white"><small>Computer-controlled digital transistorized with electronic
+                            advance</small>
+                    </p>
+                    <h1 class="text-white fs-1 fw-bold h1-font-size pb-3">Honda CBR 300R</h1>
+                    <p class="text-white pe-5">Find the new bike for your need, filter by budget, price, and features.
+                        Stay updated with upcoming motorcycles, compare bikes in your price range and stay ...</p>
+                    <!-- <button class="btn bg-gradient button-color py-2 px-5 text-white">Purchase</button> -->
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn bg-gradient button-color py-2 px-5 text-white"
+                            data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Purchase
+                        </button>
 
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Role-specific questions</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        1. What is the model name?
+                                        2. Is there any risk?
+                                        3. Miles of it
+                                        4. How much price?
+                                        5. Change positive.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Understood</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-4">
+                    <img class="mw-100" src="images/header-bike.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <!-- Featured Bikes 2021 -->
+        <section class="container my-5 py-5">
+            <h1 class="fs-1 fw-bold d-flex justify-content-center">Fetured Bikes 2021</h1>
+            <p class=" d-flex fw-bold justify-content-center"><small class="font-colorize">Best Bike Collection</small>
+            </p>
+
+            <div class="row row-cols-md-2 row-cols-lg-3 d-flex align-items-center justify-content-around">
+                <div class="col-lg-4 p-5">
+                    <img class="bike-image-color w-100" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4 p-5">
+                    <img class="w-100" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4 p-5">
+                    <img class="bike-image-color w-100" src="images/feature-bike.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Happy clients says -->
+        <section class="container py-5">
+            <h1 class="fs-1 fw-bold d-flex justify-content-center mb-5">Happy&nbsp;<span class="font-colorize"> Clients
+                    says</span>
+            </h1>
+            <div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 align-items-center">
+                            <img style="width: 75%;" src="images/user-1.png" class="card-img-top p-5" alt="...">
+                            <div class="card-body card-body-alignment px-5 pb-5">
+                                <p class="card-text">
+                                    Ive a collection of bikes
+                                    from GSXR1000K5 through Cagiva Raptor
+                                    1000 to classic Honda CB750 K0 but I keep coming back to riding the SRF. I spanner
+                                    my own bikes and rebuild classics, with the Zero just keep it fed with tyres. 90% of
+                                    my riding is under 80 miles so with everything cranked up 100%.
+                                </p>
+                                <span class="py-5"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="far fa-star"></i></span>
+                                <h5 class="py-3 fw-bold card-title-names">ZERO SR F</h5>
+                                <h5 class="fw-bold">Banker</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 align-items-center">
+                            <img style="width: 75%;" src="images/user-2.png" class="card-img-top p-5" alt="...">
+                            <div class="card-body card-body-alignment px-5 pb-5">
+                                <p class="card-text">I have just taken possession of a new Honda NC750X and have so far
+                                    ridden it the 150 miles from the dealer to my home. My first impressions are that it
+                                    is an excellent all round medium weight bike. I traded in the frenetic Suzuki GS
+                                    1250 against the Honda as I suspected that riding the Suzuki would...</p>
+                                <span class="py-5"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="far fa-star"></i></span>
+                                <h5 class="py-3 fw-bold card-title-names">Regina Miles</h5>
+                                <h5 class="fw-bold">Banker</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 align-items-center">
+                            <img style="width: 75%;" src="images/user-3.png" class="card-img-top p-5" alt="...">
+                            <div class="card-body card-body-alignment px-5 pb-5">
+                                <p class="card-text">Even though it’s only done 60k miles in 20 years, mine’s not in the
+                                    best condition. It runs and rides well and I love how versatile it is but the
+                                    paintwork on the engine/gearbox is in a sorry state! I’ll have to sort it out at
+                                    some point. Apart from that and a bent subframe that needed replacing.</p>
+                                <span class="py-5"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="far fa-star"></i></span>
+                                <h5 class="py-3 fw-bold card-title-names">Triumph</h5>
+                                <h5 class="fw-bold">Biker</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Frequently Asked Questions -->
+
+        <section class="container my-5">
+            <h1 class="fs-1 fw-bold my-5 heading-1">Frequently Asked<span class="font-colorize">&nbsp;Questions</span>
+            </h1>
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6">
+                    <img class="mw-100" src="images/faq.png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item my-4">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    <h5><strong>What are the most important things about riding a bike?</strong></h5>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    Safety First! Always
+                                    obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the
+                                    mindset of “driving” your
+                                    bike—not just “riding” your bike. This will help you be a more
+                                    focused and legally compliant bike rider.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item my-4">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    <h5><strong>How can I tell if my helmet is old and I need a new one?</strong></h5>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    Safety First! Always
+                                    obey the rules of the road. Obey all Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Soluta, perspiciatis!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item my-4">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    <h5><strong>My bike has been in storage is it safe to ride?</strong></h5>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    Safety First! Always
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt cupiditate
+                                    maiores consectetur, esse fugit repudiandae.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item my-3">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    <h5><strong>What rules should I follow when riding my bike?</strong></h5>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    Safety First! Always
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni libero sed vel.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- pricing table -->
+        <section class="container my-5 py-5">
+            <h1 class="fs-1 fw-bold d-flex justify-content-center mb-5">Pricing of&nbsp;<span class="font-colorize">
+                    bikes</span>
+            </h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+
+                    <div class="card h-100 p-4 shadow-sm">
+                        <div class="pricing-table-bike-background-color rounded-3 p-3">
+                            <img src="images/pricing-bike-1.png" class="card-img-top" alt="...">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Kipras</h5>
+                            <p class="card-text">A 2013 survey of 4,424 readers of the US Consumer Reports magazine
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eligendi ex dolores
+                                eveniet explicabo quia facere veritatis similique qui unde?</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between pt-3">
+                            <h1 class="fw-bold font-colorize">$5,899</h1>
+                            <button class="btn bg-gradient button-color py-2 px-5 text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="card h-100 p-4 shadow-sm">
+                        <div class="pricing-table-bike-background-color rounded-3 p-3">
+                            <img src="images/pricing-bike-2.png" class="card-img-top" alt="...">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">KMS</h5>
+                            <p class="card-text">Motorcycles Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Deserunt consequatur provident iure debitis distinctio aliquid sint numquam! Nam,
+                                similique. Architecto.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between pt-3">
+                            <h1 class="fw-bold font-colorize">$6,199</h1>
+                            <button class="btn bg-gradient button-color py-2 px-5 text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="card h-100 p-4 shadow-sm">
+                        <div class="pricing-table-bike-background-color rounded-3 p-3">
+                            <img src="images/pricing-bike-3.png" class="card-img-top" alt="...">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Duke</h5>
+                            <p class="card-text">The same data shows that 1.56 fatalities occur per 100 million Lorem
+                                ipsum dolor sit amet, consectetur adipisicing elit. Illo cumque obcaecati harum
+                                doloremque repudiandae quo?</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between pt-3">
+                            <h1 class="fw-bold font-colorize">$4,859</h1>
+                            <button class="btn bg-gradient button-color py-2 px-5 text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact Us Section -->
+        <section class="container py-5 my-5">
+            <h1 class="fs-1 fw-bold d-flex justify-content-center mb-5">Contact&nbsp;<span class="font-colorize">
+                    Us</span>
+            </h1>
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6 border rounded-3 shadow-sm py-2">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Choose Your Picture</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message Us</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn bg-gradient button-color text-white" type="button">Button</button>
+                    </div>
+                    </form>
+
+                </div>
+
+                <!-- this is maps -->
+                <div class="col-lg-6 py-2">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3642.206452228124!2d90.16940811477274!3d24.094234181471563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e75faa1f164d%3A0x1028a3c09621451c!2sDhaka%20-%20Tangail%20Hwy!5e0!3m2!1sen!2sbd!4v1627551988505!5m2!1sen!2sbd"
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+    <!-- bootstrap bundle js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
